@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.ExerciceActivity"
+    android:backgroundTint="#90000000"
+    android:backgroundTintMode="src_over"
+    android:background="@drawable/classroom_work"
+
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pLin1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/pL1Lin1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/pL1Lin2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center"></LinearLayout>
+        <LinearLayout
+            android:id="@+id/pL1Lin3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center"></LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pLin2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+        <LinearLayout
+            android:id="@+id/pL2Lin1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/pL2Lin11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="Orientation"></LinearLayout>
+            <LinearLayout
+                android:id="@+id/pL2Lin12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="Orientation"></LinearLayout>
+            <LinearLayout
+                android:id="@+id/pL2Lin13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="Orientation"></LinearLayout>
+            <LinearLayout
+                android:id="@+id/pL2Lin14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="Orientation"></LinearLayout>
+            <LinearLayout
+                android:id="@+id/pL2Lin15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="Orientation"></LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="exerciceActivityValider"
+        android:text="valider"></Button>
+</LinearLayout>

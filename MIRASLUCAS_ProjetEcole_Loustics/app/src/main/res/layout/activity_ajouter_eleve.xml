@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/southpark_character">
+
+    <TextView
+
+        android:id="@+id/textView3"
+        android:layout_width="486dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:background="@drawable/background_button"
+        android:gravity="center"
+        android:text="Ajout d'un nouvel élève"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30dp"
+        android:layout_marginBottom="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prenom : "
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/editPrenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_weight="4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom : "
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/editNom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.3"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="232dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/background_button"
+            android:gravity="center"
+            android:text="Ajouter eleve"
+            android:textColor="@android:color/holo_orange_dark"/>
+    </LinearLayout>
+</LinearLayout>

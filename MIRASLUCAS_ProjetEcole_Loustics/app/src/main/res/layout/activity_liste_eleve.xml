@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.ListeEleveActivity"
+    android:orientation="vertical"
+    android:background="@drawable/allcharacter">
+
+    <TextView
+        android:id="@+id/nomClasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Classe A"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        />
+
+    <ListView
+        android:id="@+id/listEleve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="406dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:background="#90000000"
+        android:text="Tu ne te trouves pas ?"
+        android:textSize="30dp"
+        android:onClick="nouveauEleve"
+        android:textColor="@android:color/holo_orange_dark">
+
+    </Button>
+
+</LinearLayout>
